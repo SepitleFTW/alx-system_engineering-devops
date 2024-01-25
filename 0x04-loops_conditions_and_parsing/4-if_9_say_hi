@@ -2,7 +2,7 @@
 #print Best school using while loop until #9
 
 count=0
-while [ $count -lt 10]
+while [ $count -lt 10 ]
 do
     if [ $count -eq 9 ]
     then

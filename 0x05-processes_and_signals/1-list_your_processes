@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#bash script that displays a list
+#of currently running processes
+#the forest option is used to display
+#process hierachy in a tree like format
+
+ps aux --forest

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Bash script which displays lines
+#containing the bash
+
+ps -aux | grep bash

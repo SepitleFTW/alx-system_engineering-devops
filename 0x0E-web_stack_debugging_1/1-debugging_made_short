@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#configure the nginx server to listen on port 80
+
+#create a link between nginx and enabled sites directory
+
+ln -sf /etc/nginx/sites-available/default/ etc/nginx/sites-enabled/default
+#restart nginx
+service nginx restart
+
+#terminatre the firstn nginx process
+kill "$(pgrep 'nginx' | heead-l)"

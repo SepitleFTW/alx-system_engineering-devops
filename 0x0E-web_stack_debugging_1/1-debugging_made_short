@@ -3,7 +3,7 @@
 
 #create a link between nginx and enabled sites directory
 
-ln -sf /etc/nginx/sites-available/default/ etc/nginx/sites-enabled/default
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 #restart nginx
 service nginx restart
 

@@ -5,7 +5,7 @@
 
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 #restart nginx
-service nginx restart
+service nginx start
 
 #terminatre the firstn nginx process
 kill "$(pgrep 'nginx' | heead-1)"

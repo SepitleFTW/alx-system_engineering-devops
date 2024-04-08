@@ -8,4 +8,4 @@ ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
 
 #terminatre the firstn nginx process
-kill "$(pgrep 'nginx' | heead-1)"
+kill "$(pgrep 'nginx' | head-1)"

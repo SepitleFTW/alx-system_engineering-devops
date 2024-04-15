@@ -1,0 +1,1 @@
+ is a network security device that monitors and controls the incoming and outgoing network traffic based on an applied rule set. It establishes a barrier between a secured internal network and untrusted external networks, such as the internet
